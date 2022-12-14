@@ -12,19 +12,19 @@
 <body>
     
     <div class="bg-neutral-900 min-h-screen px-5 flex items-center justify-center">
-        <div class="h-96 w-96 bg-gray-800 p-4 rounded-2xl flex flex-col justify-evenly md:px-8">
-            <div class="">
-                <img class="p-3 bg-gray-700 rounded-full mr-0" src="img/icon-star.svg" alt="">
+        <div class="h-96 w-96 bg-gray-800 p-4 rounded-2xl flex flex-col justify-evenly md:px-8" id="main-container">
+            <div id="dashboard-div">
+                <img class="p-3 bg-gray-700 rounded-full mr-0" src="img/icon-star.svg" alt="star-icon">
             </div>
-            <h2 class="text-white text-3xl font-customFont">How did we do?</h2>
-            <p class="text-slate-400 text-base">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-            <form>
+            <h2 class="text-white text-3xl font-customFont" id="dashboard-h2">How did we do?</h2>
+            <p class="text-slate-400 text-base" id="dashboard-p">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <form id="dashboard-form">
                 <div class="flex justify-between pb-5" id="rating-container">
-                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-1">1</button>
-                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-2">2</button>
-                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-3">3</button>
-                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-4">4</button>
-                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-5">5</button>
+                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-1" value="1">1</button>
+                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-2" value="2">2</button>
+                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-3" value="3">3</button>
+                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-4" value="4">4</button>
+                    <button class="p-1 bg-gray-700 w-10 h-10 rounded-full text-gray-400 hover:bg-orange-500 hover:text-slate-50 focus:bg-slate-400 focus:text-white outline-none cursor-default" id="btn-5" value="5">5</button>
                 </div>
                 <button class="w-full bg-orange-500 px-4 py-2 rounded-full hover:bg-slate-50 hover:text-orange-500" type="submit" id="submit">Submit</button>
             </form>
